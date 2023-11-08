@@ -1,0 +1,14 @@
+{
+  "name": "my-advertising-app",
+  "version": "1.0.0",
+  "description": "Advertising Application",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^7.0.1",
+    "mongodb": "^4.0.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
