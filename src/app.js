@@ -1,7 +1,7 @@
 const express = require("express");
 const { check, validationResult } = require("express-validator");
-const { connectToDatabase, closeDatabaseConnection, getUserById, findRelevantAds } = require("./mongoDBConnection");
-const { getTargetedAdvertisement, getAdSlots } = require("./advertisements");
+const { connectToDatabase, closeDatabaseConnection } = require("./mongodb/mongoDBConnection");
+const { getTargetedAdvertisement, getAdSlots } = require("../src/router/userRouter/advertisements");
 
 const app = express();
 const port = 3000;

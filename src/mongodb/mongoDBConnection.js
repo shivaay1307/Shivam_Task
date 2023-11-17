@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 const uri =
-  "mongodb+srv://ShivamTask:ShivamTask@shivamtask.xbuw1s7.mongodb.net/";
+  ""; //  Your mongo db Url
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -23,8 +23,8 @@ async function closeDatabaseConnection() {
 
 async function getUserById(userId) {
   try {
-    const database = client.db("users");
-    const usersCollection = database.collection("userCollection");
+    const database = client.db("users");  // your database name
+    const usersCollection = database.collection("userCollection");  // your collection name
 
     const user = await usersCollection.findOne({
       $or: [{ _id: userId }, { _id: parseInt(userId) }],
@@ -45,8 +45,8 @@ async function findRelevantAds(user) {
   const relevantAds = [];
 
   try {
-    const db = client.db("ShivamCluster");
-    const advertisersCollection = db.collection("advertisers");
+    const db = client.db("sample cluster"); // your cluster or database name
+    const advertisersCollection = db.collection("advertisers"); // your collection name
     const cursor = advertisersCollection.find({});
     const advertisers = await cursor.toArray();
 

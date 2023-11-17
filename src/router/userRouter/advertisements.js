@@ -1,5 +1,5 @@
 const { validationResult } = require("express-validator");
-const { getUserById, findRelevantAds } = require("./mongoDBConnection");
+const { getUserById, findRelevantAds } = require("../../mongodb/mongoDBConnection");
 
 const numberOfAdSlots = 3;
 
