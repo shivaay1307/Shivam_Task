@@ -1,0 +1,74 @@
+users = [
+  {
+    "_id": 1,
+    "name": "John Doe",
+    "location": "New York",
+    "interests": ["Technology", "Sports", "Travel"],
+    "gender": "Male",
+    "email": "john@example.com"
+  },
+  {
+    "_id": 2,
+    "name": "Alice Smith",
+    "location": "Los Angeles",
+    "interests": ["Art", "Music", "Cooking"],
+    "gender": "Female",
+    "email": "alice@example.com"
+  },
+  {
+    "_id": 3,
+    "name": "Emily Johnson",
+    "location": "San Francisco",
+    "interests": ["Technology", "Gaming", "Travel", "Movies"],
+    "gender": "Female",
+    "email": "emily@example.com"
+  },
+  {
+    "_id": 4,
+    "name": "Michael Brown",
+    "location": "Chicago",
+    "interests": ["Sports", "Outdoor Activities", "Movies"],
+    "gender": "Male",
+    "email": "michael@example.com"
+  },
+  {
+    "_id": 5,
+    "name": "Sophia Wilson",
+    "location": "Los Angeles",
+    "interests": ["Art", "Music", "Cooking"],
+    "gender": "Female",
+    "email": "sophia@example.com"
+  },
+  {
+    "_id": 6,
+    "name": "James Smith",
+    "location": "Miami",
+    "interests": ["Technology", "Sports", "Fashion", "Travel"],
+    "gender": "Male",
+    "email": "james@example.com"
+  },
+  {
+    "_id": 7,
+    "name": "Olivia Davis",
+    "location": "New York",
+    "interests": ["Sports", "Fashion"],
+    "gender": "Female",
+    "email": "olivia@example.com"
+  },
+  {
+    "_id": 8,
+    "name": "David Lee",
+    "location": "Seattle",
+    "interests": ["Technology", "Gaming"],
+    "gender": "Male",
+    "email": "david@example.com"
+  },
+  {
+    "_id": 9,
+    "name": "Emma Miller",
+    "location": "San Francisco",
+    "interests": ["Art", "Travel"],
+    "gender": "Female",
+    "email": "emma@example.com"
+  }
+]
